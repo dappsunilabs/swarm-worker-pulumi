@@ -20,7 +20,7 @@ sudo newgrp docker
 sudo systemctl start docker
 
 ip_address=`curl http://checkip.amazonaws.com`
-sudo docker swarm join --token SWMTKN-1-3tzg0l32nji7dowyw8qbvoaxv3uc72bydsttvboh0gnrn830ot-f0orv9116n6syxkyoul9l9z9e 172.31.42.103:2377
+sudo docker swarm join --token SWMTKN-1-xxx-xxx IP-ADDRESS:2377
 #echo "Hello, World via script!" > index.html
 #nohup python -m SimpleHTTPServer 80 &
 
